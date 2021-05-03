@@ -90,7 +90,7 @@ function sshConnect() {
       privateKey: './L01-HandsOn.pem'
     })
     .then(function() {
-      console.log('SSH Connection established.');
+      console.log('SSH Connection established..');
       console.log('Installing PM2...');
       return installPM2();
     })
